@@ -1,0 +1,18 @@
+{
+  "trustec": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "mysql://root:@127.0.0.1:3306/trustec",
+    "database": "trustec",
+    "password": "",
+    "name": "trustec",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  }
+}
